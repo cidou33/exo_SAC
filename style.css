@@ -14,4 +14,34 @@ nav{
 }
 span{
     color: white;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.richard{
+    background-color: rgb(235, 194, 14);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    padding: 50px;
+}
+
+.citation{
+    color: black;
+    background-color: white;
+    padding: 25px;
+
+    width: 33%;
+
+    border-radius: 5px;
+
+    margin-bottom: 25px;
+
 }
