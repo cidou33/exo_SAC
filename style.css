@@ -12,6 +12,13 @@ nav{
     height:300px;
     background-color: black;
 }
+#sectionMap{
+    width:100%;
+}
+#map{
+    width:100%;
+    height: 250px;
+}
 span{
     color: white;
 
