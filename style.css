@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.richard{
+    background-color: rgb(235, 194, 14);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    padding: 50px;
+}
+
+.citation{
+    color: black;
+    background-color: white;
+    padding: 25px;
+
+    width: 33%;
+
+    border-radius: 5px;
+
+    margin-bottom: 25px;
+
+}
