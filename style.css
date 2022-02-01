@@ -3,14 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-nav{
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    width: 100%;
-    height:300px;
-    background-color: black;
+body{
+    margin: 0 2%;
+    font-family: sans-serif;
 }
 #sectionMap{
     width:100%;
@@ -22,39 +17,78 @@ nav{
 span{
     color: white;
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-.cercleJaune{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: rgb(226, 199, 44);
-    border:white solid 1px;
+header{
+    background-image: url("img/banner_bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.774);
 }
-
-.richard{
-    background-color: rgb(235, 194, 14);
-
+.navHead{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 2% 0;
+    height: 20%;
+}
+.logo{
+    font-weight: 900;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.logo:hover{
+    color: white;
+}
+.T{
+    font-size: 30px;
+    color: rgb(207, 199, 81);
+}
+.ulHead{
+    display: flex;
+    justify-content: space-between;
+     width: 50%;
+}
+li{
+    list-style-type: none;
+    margin: auto;
+
+}
+li:hover{
+    cursor: pointer;
+}
+.txtHead{
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    color: white;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+}
+.titleHead{
+    font-size: 38px;
+    font-weight:normal;
+}
+.html5{
+    color: rgb(104, 209, 228);
+    font-weight: 700;
+    font-size: 40px;
+}
+.tinkerSpan{
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(207, 199, 81);
 
-    padding: 50px;
 }
 
-.citation{
-    color: black;
-    background-color: white;
-    padding: 25px;
-
-    width: 33%;
-
-    border-radius: 5px;
-
-    margin-bottom: 25px;
-
+.paraTitle{
+    text-align: center;
+    padding: 20px 50px;
+}
+button{
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
 }
